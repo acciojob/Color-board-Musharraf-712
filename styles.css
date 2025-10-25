@@ -1,1 +1,23 @@
 /*  your css code here. If applicable */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #111;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    display: grid;
+    width: 600px;
+    grid-template-columns: repeat(40, 1fr);
+    gap: 2px;
+}
+
+.square {
+    width: 15px;
+    height: 15px;
+    background: #1d1d1d;
+    transition: background-color 1s ease;
+}
