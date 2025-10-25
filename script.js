@@ -1,4 +1,4 @@
-   const colors = [
+ const colors = [
             '#FF6B6B', '#4ECDC4', '#45B7D1', '#FFA07A', '#98D8C8',
             '#F7DC6F', '#BB8FCE', '#85C1E2', '#F8B195', '#F67280',
             '#C06C84', '#6C5B7B', '#355C7D', '#2A9D8F', '#E76F51',
