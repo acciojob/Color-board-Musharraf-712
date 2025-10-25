@@ -7,9 +7,6 @@ for (let i = 0; i < SQUARES; i++) {
     const square = document.createElement("div");
     square.classList.add("square");
 
-    // ✅ INITIAL COLOR SET VIA JS (Cypress can detect this!)
-    square.style.backgroundColor = "rgb(29, 29, 29)";
-
     square.addEventListener("mouseover", () => setColor(square));
     square.addEventListener("mouseout", () => removeColor(square));
 

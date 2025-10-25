@@ -5,12 +5,16 @@ body {
 
 .container {
     display: grid;
+    width: fit-content;
+    margin: 20px;
     grid-template-columns: repeat(40, 20px);
+    grid-template-rows: repeat(20, 20px); /* ✅ ADDED */
     gap: 2px;
-    padding: 20px;
 }
+
 .square {
     width: 20px;
-    height: 20px;
+    height: 20px; /* ✅ Ensures visibility in Cypress */
+    background-color: rgb(29, 29, 29); /* ✅ Moved here */
     transition: background-color 1s ease;
 }
